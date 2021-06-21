@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Best CV</title>
+		<link rel = "stylesheet" href = "style.css"></link>
+	</head>
+	<body>
+		<div class = "resume">
+			<div>
+			<ul class = "try">
+				<li><a href = "#am">About me</a></li>
+				<li><a href = "#ti">This is my experiences</a></li>
+				<li><a href = "#me">My education experiences</a></li>
+				<li><a href = "#tim">This is my research</a></li>
+				<li><a href = "#in">interested?</a></li>
+			</ul>
+			<div>
+			<div class ="awal">
+			<br>
+			<h1>My Resume</h1>
+			<h2 class = "name">Eren Yeager<h2>
+			<br>
+			</div>
+			<hr color ="black">
+			<div>
+				<h3 id = "am">ABOUT ME</h3>
+				<p>
+					I'm a guy who have an Information Management System Degree. And I'm a guy who love doing programming since I was a child. I always study how to the best programmers 
+					and now I've been graduated from National Central University. Throughout in the Collage, I have study alot about programming which is improve
+					my programming skills.
+				</p>
+			</div>
+			<div id = "ti">
+			<h3>This is my experiences</h3>
+			<ul>
+				<li>I have programming skills</li>
+				<li>I study alot programming since I was a child</li>
+				<li>I'm a guy who will never give up easily</li>
+				<li>I will do my job very well</li>
+				</li>I will do my best</li>
+			</ul>
+			</div>
+			<div id = "me">
+				<h3>My Education Experiences</h3>
+				<ul>
+					<li>I've been graduated from top university</li>
+					<li>I've been graduated with a good score</li>
+					<li>I've a lot of experiences about programming</li>
+				</ul>
+			</div>
+			<div id = "tim">
+				<h3>This is my research</h3>
+				<p><b>(This is a link)</b></p>
+				<ol>
+					<li><a href = "https://www.cnnindonesia.com/">CNN Indonesia</a></li>
+					<li><a href = "https://play.typeracer.com/">This is a game</a></li>
+				</ol>
+			</div>
+			<img src = "https://static.wikia.nocookie.net/spongebob/images/d/d7/SpongeBob_stock_art.png/revision/latest?cb=20190921125147" alt = "this is the profile picture" title = "This is my profile picture"></img>
+			<hr color == "black">
+			<div id = "in">
+				<h2>Are you interested?</h2>
+				<h3>If you interested, please write your name</h3>
+				<button id = "btn" onclick = "question()">Click Here</button>
+				<p id = "result"></p>
+			</div>
+		</div>
+		<script>
+			function question(){ 	
+				var msg;
+				var user_name = prompt("Please write your name:", "Eren Yeager");
+				if(user_name == null || user_name == ""){
+					msg = "Invalid Input"; 
+				}	
+				else{
+					msg = "Hello "+user_name+", Your name have been recorded";
+				}
+				document.getElementById("result").innerHTML = msg;
+			}
+		</script>
+	</body>
+</html>

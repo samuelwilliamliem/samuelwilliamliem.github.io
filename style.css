@@ -1,0 +1,66 @@
+body{
+	background-color : #9e9e9e;
+}
+div ul.try{
+	font-size = 24px;
+	list-style-type : none;
+	margin : 0px;
+	padding : 0px;
+	overflow  :hidden;
+	background-color : black;
+	position : -webkit-sticky;
+	position : sticky;
+	top : 0;
+}
+ul.try li{
+	float : left;
+}
+ul.try li a{
+	display : block;
+	color : white;
+	text-align : center; /*textt align make the text in the center*/
+	padding : 10px 4px;
+	text-decoration : none
+}
+ul.try li a:hover:not(.active){
+	background-color : gray;
+}
+ul.try li a.active{
+	background-color : yellow; /* background-color is used to coloring of background */
+}
+h1{
+	color : white;  /* colro is used to coloring the text */
+	text-align : center; 
+}
+h2.name{
+	color : white;
+	text-align : center;
+}
+div.awal{
+	background-color : #173F5F;
+}
+img{
+	display: block; 
+
+  width: 150px;	/* width is used to width of an element, it cloud be image of somethihng else */
+  height : 150px; /* height is used to height of an element, it cloud be image of somethihng else*/
+}
+body{
+	position : relative;
+}
+div.resume{
+	margin: auto;
+	width: 60%;
+	border: 15px solid black;
+	padding: 10px;
+}
+
+#btn{
+	background-color : #616161;
+	color : white;
+}
+
+ol a{
+	color : black;
+
+}
